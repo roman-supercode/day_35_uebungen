@@ -1,0 +1,42 @@
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+button {
+    background-color: #035aa6;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.wrapper {
+    max-width: 500px;
+}
+
+div {
+    border-radius: 5px;
+}
+
+.small {
+    color: rgb(59, 155, 59);
+    border: 5px solid grey;
+}
+
+.middle {
+    color: rgb(59, 155, 59);
+    border: 10px solid grey;
+}
+
+.crazy {
+    color: rgb(206, 216, 90);
+    font-size: 30px;
+    border: 30px solid rgb(59, 155, 59);
+    font-family: fantasy;
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+    transition: color 2s linear;
+}
